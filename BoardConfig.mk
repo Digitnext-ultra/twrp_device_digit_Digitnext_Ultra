@@ -10,16 +10,6 @@ DEVICE_PATH := device/digit/Digitnext_Ultra
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
-# A/B
-AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS += \
-    vbmeta_system \
-    product \
-    vbmeta_vendor \
-    system \
-    vendor \
-    boot \
-    system_ext
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture

@@ -6,6 +6,25 @@
 #
 
 LOCAL_PATH := device/digit/Digitnext_Ultra
+
+ # VIRTUAL A/B
+ENABLE_VIRTUAL_AB := true
+
+# A/B
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    init_boot \
+    dtbo \
+    system \
+    system_ext \
+    product \
+    vendor \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
