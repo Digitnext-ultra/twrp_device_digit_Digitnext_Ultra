@@ -25,11 +25,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # SDCard replacement functionality
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-PRODUCT_DEVICE := Digitnext_Ultra
-PRODUCT_NAME := twrp_Digitnext_Ultra
 PRODUCT_BRAND := Digit
-PRODUCT_MODEL := Digitnext_Ultra
+PRODUCT_DEVICE := Digitnext_Ultra
 PRODUCT_MANUFACTURER := digit
-
+PRODUCT_MODEL := Digitnext_Ultra
+PRODUCT_NAME := twrp_Digitnext_Ultra
 PRODUCT_GMS_CLIENTID_BASE := android-digit
-
