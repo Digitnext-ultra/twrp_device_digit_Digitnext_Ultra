@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_Digitnext_Ultra.mk
+    $(LOCAL_DIR)/twrp_Digitnext_Ultra.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_Digitnext_Ultra-user \
-    omni_Digitnext_Ultra-userdebug \
-    omni_Digitnext_Ultra-eng
+    twrp_Digitnext_Ultra-user \
+    twrp_Digitnext_Ultra-userdebug \
+    twrp_Digitnext_Ultra-eng
