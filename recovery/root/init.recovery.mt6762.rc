@@ -8,6 +8,8 @@ on init
 
 on fs
     mkdir /mnt/vendor/persist 0771 root root
+    mount ext4 /dev/block/platform/bootdevice/by-name/persist /mnt/vendor/persist
+
     install_keyring
     setprop crypto.ready 1
 
